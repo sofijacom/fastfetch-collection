@@ -16,3 +16,6 @@ update.sh linguist-language=bash
 # ---------------------------------------------------------
 *.diff whitespace=-space-before-tab,-trailing-space
 *.patch whitespace=-space-before-tab,-trailing-space
+
+*.jsonc linguist-language=JSONC linguist-detectable=true
+config.jsonc linguist-language=JSONC linguist-detectable=true
